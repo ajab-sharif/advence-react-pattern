@@ -4,7 +4,10 @@
 /node_modules
 /.pnp
 .pnp.js
-
+src/app.v1.js
+src/index.v1.js
+src/HOC.v1.jsx
+src/style.v1.css
 # testing
 /coverage
 
