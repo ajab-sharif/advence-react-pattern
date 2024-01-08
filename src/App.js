@@ -91,7 +91,7 @@ export default function App() {
 
         <List title="Companies" items={companies}
           render={(company) => (
-            <ProductItem key={company.companyName} product={company} />
+            <CompanyItem key={company.companyName} company={company} defaultVisibility={false} />
           )} />
 
       </div>
